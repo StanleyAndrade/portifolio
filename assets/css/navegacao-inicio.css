@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quando&display=swap');
+
 /* criando barra de navegação */
 ul {
     list-style: none;
@@ -20,7 +23,7 @@ a {
 }
 
 a:hover {
- color: rgb(208, 255, 0);
+ color: rgb(255, 255, 255);
 }
 
 img {
@@ -61,7 +64,7 @@ img {
 
 /* criando início */
 #inicio {
-    background: linear-gradient(63.13deg, #352728 51.04%, #8E5D52 51.05%);
+    background: linear-gradient(63.13deg, #0a0a0a 50.04%, #25367a 80.05%);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -95,7 +98,7 @@ img {
 .linkedin {
     width: 479px;
     height: 85px;
-    background-color:#8E5D52;
+    background-color:#25367a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,6 +158,14 @@ img {
     animation: pisca .7s infinite;
 }
 
+#language{
+    background-color: #3e3f41;
+    width: 150px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
 @keyframes pisca {
     0%, 100% {
         opacity: 1;
@@ -167,7 +178,7 @@ img {
 @media (max-width:1200px) {
     
     #inicio{
-        background: #352728;
+        background: #0a0a0a;
         height: auto;
     }
 
@@ -306,7 +317,7 @@ img {
         z-index: 2;
         top: 2rem;
         right: 2rem;
-        background: #792e33;
+        background: #25367a;
         color: white;
         font-size: 3rem;
         line-height:3rem;

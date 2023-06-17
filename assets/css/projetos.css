@@ -1,9 +1,9 @@
 #projetos {
-    background-color: #352728;
+    background-color: #0a0a0a;
 }
 
 .portfolio {
-    background-image: url(https://cdn.discordapp.com/attachments/957316110653464596/1094558908531605624/image.png);
+    background-image: url();
     background-size: cover;
 }
 
@@ -24,13 +24,13 @@ button {
     border-radius: 25px;
     cursor: pointer;
     color: white;
-    background-color: #493737;
+    background-color: #25367a;
     border: none;
     transition: ease-in-out 0.3s;
 }
 
 button:hover {
-    background-color: #a16c60;
+    background-color: #3d58c4;
 }
 
 .github-link {
@@ -72,7 +72,7 @@ button:hover {
 }
 
 .pro div {
-    background-color: #705656;
+    background-color: #25367a;
     width: 1000px;
     text-align: center;
     padding: 5% 0;
